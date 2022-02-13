@@ -15,5 +15,5 @@ function save() {
 
   let showcase = count + "  -  "
 
-  saveEL.innerText += showcase
+  saveEL.textContent += showcase
 }
