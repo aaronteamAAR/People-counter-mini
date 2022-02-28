@@ -1,19 +1,21 @@
 let count = 0
-let countEL = document.getElementById("count-el")
-let saveEL  = document.getElementById("save-el")
+let countEl = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
+
 
 
 function increment() {
     count += 1
 
-countEL.innerText = count
-
+    countEl.innerText = count
 }
-function save() {
-  console.log(count);
 
 
-  let showcase = count + "  -  "
+function save(){
+    
+    console.log(count)
 
-  saveEL.textContent += showcase
+
+    let showcase = count + " - "
+    saveEl.innerText += showcase
 }
